@@ -1,6 +1,13 @@
 import './globals.css'
 import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
+import Head from 'next/head'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'CFAC',
+  description: 'UBC\'s #1 Investment Club',
+};
 
 export default function RootLayout({
   children,
