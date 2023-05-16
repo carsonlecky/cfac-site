@@ -61,10 +61,6 @@ export default function NavBar() {
                     </div>
                     <Popover.Group className="hidden lg:flex lg:gap-x-12">
                         <Popover className="relative">
-                            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
-                                About Us
-                                <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-                            </Popover.Button>
 
                             <Transition
                                 as={Fragment}
@@ -89,24 +85,36 @@ export default function NavBar() {
                             </Transition>
                         </Popover>
 
-                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                            Hiring
+                        <a href="/about" className="text-sm font-semibold leading-6 text-gray-900">
+                            About Us
                         </a>
-                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                        <a href="/team" className="text-sm font-semibold leading-6 text-gray-900">
+                            Team
+                        </a>
+
+
+                        <a href="/events" className="text-sm font-semibold leading-6 text-gray-900">
                             Events
                         </a>
 
-                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                        <a href="/portfolio" className="text-sm font-semibold leading-6 text-gray-900">
                             Portfolio
                         </a>
 
-                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                            Pitches
+                        <a href="/pitches" className="text-sm font-semibold leading-6 text-gray-900">
+                            Pitches & Reports
+                        </a>
+                        <a href="/alumni" className="text-sm font-semibold leading-6 text-gray-900">
+                            Alumni
                         </a>
 
-                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                            Reports
+                        <a href="/hiring" className="text-sm font-semibold leading-6 text-gray-900">
+                            Hiring
                         </a>
+                        <a href="/contact" className="text-sm font-semibold leading-6 text-gray-900">
+                            Contact
+                        </a>
+
 
                     </Popover.Group>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -143,32 +151,19 @@ export default function NavBar() {
 
 
 
-                                    <Disclosure as="div" className="-mx-3">
-                                        {({ open }) => (
-                                            <>
-                                                <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
-                                                    About Us
-                                                    <ChevronDownIcon
-                                                        className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
-                                                        aria-hidden="true"
-                                                    />
-                                                </Disclosure.Button>
-                                                <Disclosure.Panel className="mt-2 space-y-2">
-                                                    {company.map((item) => (
-                                                        <Disclosure.Button
-                                                            key={item.name}
-                                                            as="a"
-                                                            href={item.href}
-                                                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                                                        >
-                                                            {item.name}
-                                                        </Disclosure.Button>
-                                                    ))}
-                                                </Disclosure.Panel>
-                                            </>
-                                        )}
-                                    </Disclosure>
 
+                                    <a
+                                        href="/about"
+                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                    >
+                                        About Us
+                                    </a>
+                                    <a
+                                        href="/team"
+                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                    >
+                                        Team
+                                    </a>
                                     <a
                                         href="#"
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
@@ -185,14 +180,14 @@ export default function NavBar() {
                                         href="#"
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                     >
-                                        Pitches
+                                        Pitches & Reports
 
                                     </a>
                                     <a
                                         href="#"
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                     >
-                                        Reports
+                                        Alumni
                                     </a>
                                 </div>
                                 <div className="py-6">

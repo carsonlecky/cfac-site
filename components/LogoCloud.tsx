@@ -1,3 +1,4 @@
+
 export default function LogoCloud() {
     return (
         <div className="bg-white py-24 sm:py-32">
@@ -21,21 +22,21 @@ export default function LogoCloud() {
                     />
                     <img
                         className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                        src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
+                        src="https://upload.wikimedia.org/wikipedia/commons/9/9d/KPMG_logo.svg"
                         alt="Tuple"
                         width={158}
                         height={48}
                     />
                     <img
                         className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                        src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/National_Bank_Of_Canada.svg/1200px-National_Bank_Of_Canada.svg.png"
                         alt="SavvyCal"
                         width={158}
                         height={48}
                     />
                     <img
                         className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                        src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/BMO_Capital_Markets_logo.svg/2560px-BMO_Capital_Markets_logo.svg.png"
                         alt="Statamic"
                         width={158}
                         height={48}
