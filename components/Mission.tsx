@@ -1,4 +1,4 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { BriefcaseIcon, GlobeAltIcon, AcademicCapIcon } from '@heroicons/react/20/solid'
 
 export default function Mission() {
     return (
@@ -25,19 +25,19 @@ export default function Mission() {
                             </p>
                             <ul role="list" className="mt-8 space-y-8 text-gray-600">
                                 <li className="flex gap-x-3">
-                                    <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                                    <GlobeAltIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                     <span>
                                         <strong className="font-semibold text-gray-900">Philanthropy.</strong> CFAC Portfolio Management was founded in 2016 with a philanthropic purpose of raising awareness and money for ALS research. CFAC continues this mission by organizing fundraisers and sharing information in the UBC community about the fight against ALS.
                                     </span>
                                 </li>
                                 <li className="flex gap-x-3">
-                                    <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                                    <AcademicCapIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                     <span>
                                         <strong className="font-semibold text-gray-900">Education.</strong> Provided Text has to go here
                                     </span>
                                 </li>
                                 <li className="flex gap-x-3">
-                                    <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                                    <BriefcaseIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                     <span>
                                         <strong className="font-semibold text-gray-900">Experience.</strong> Provided Text has to go here
                                     </span>
