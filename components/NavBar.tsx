@@ -85,9 +85,7 @@ export default function NavBar() {
                             </Transition>
                         </Popover>
 
-                        <a href="/about" className="text-sm font-semibold leading-6 text-gray-900">
-                            About Us
-                        </a>
+
                         <a href="/team" className="text-sm font-semibold leading-6 text-gray-900">
                             Team
                         </a>
@@ -152,12 +150,7 @@ export default function NavBar() {
 
 
 
-                                    <a
-                                        href="/about"
-                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                                    >
-                                        About Us
-                                    </a>
+
                                     <a
                                         href="/team"
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
@@ -165,26 +158,26 @@ export default function NavBar() {
                                         Team
                                     </a>
                                     <a
-                                        href="#"
+                                        href="/events"
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                     >
                                         Events
                                     </a>
                                     <a
-                                        href="#"
+                                        href="/portfolio"
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                     >
                                         Portfolio
                                     </a>
                                     <a
-                                        href="#"
+                                        href="/pitches"
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                     >
                                         Pitches & Reports
 
                                     </a>
                                     <a
-                                        href="#"
+                                        href="/alumni"
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                     >
                                         Alumni
@@ -192,7 +185,7 @@ export default function NavBar() {
                                 </div>
                                 <div className="py-6">
                                     <a
-                                        href="#"
+                                        href="/contact"
                                         className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                     >
 
