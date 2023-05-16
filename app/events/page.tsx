@@ -12,7 +12,9 @@ export default function Events() {
                         Here is the events calendar
                     </p>
                 </div>
-                <Calendar />
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                    Calendar Broken. Will Fix
+                </p>
             </div>
         </>
     )
