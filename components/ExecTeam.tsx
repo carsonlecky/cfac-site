@@ -5,12 +5,8 @@ const people = [
         role: 'President',
         imageUrl:
             'https://media.licdn.com/dms/image/C5603AQGEDMYnsBc4Jg/profile-displayphoto-shrink_800_800/0/1620838366058?e=1689206400&v=beta&t=iln0KdvhOYk8YtLREfbFETDRqe48ER1ggoV1Nr0eSSI',
-<<<<<<< Updated upstream
         bio: 'Do.',
-=======
-        bio: 'Degen Retard turned fincance bro.',
         linkedin: 'https://linkedin.com/in/carson-lecky'
->>>>>>> Stashed changes
     },
 ]
 

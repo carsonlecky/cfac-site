@@ -14,19 +14,14 @@ export default function Mission() {
                 </div>
                 <div className="px-6 lg:contents">
                     <div className="mx-auto max-w-2xl pb-24 pt-16 sm:pb-32 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
-                        <p className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
+                        <p className="text-base font-semibold leading-7 text-indigo-600"></p>
                         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Mission</h1>
                         <p className="mt-6 text-xl leading-8 text-gray-700">
-                            Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
-                            aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend
-                            egestas fringilla sapien.
+                            Provided Text Goes Here. Provided Text Goes Here. Provided Text Goes Here. Provided Text Goes Here. Provided Text Goes Here. Provided Text Goes Here.
                         </p>
                         <div className="mt-10 max-w-xl text-xl leading-7 text-gray-700 lg:max-w-none">
                             <p>
-                                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-                                vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-                                erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-                                semper sed amet vitae sed turpis id.
+
                             </p>
                             <ul role="list" className="mt-8 space-y-8 text-gray-600">
                                 <li className="flex gap-x-3">

@@ -7,78 +7,26 @@ export default function Contact() {
                         <div>
                             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Get in touch</h2>
                             <p className="mt-4 leading-7 text-gray-600">
-                                Quam nunc nunc eu sed. Sed rhoncus quis ultricies ac pellentesque.
+                                If you have any inquires please send us an email.
                             </p>
                         </div>
                         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
                             <div className="rounded-2xl bg-gray-50 p-10">
-                                <h3 className="text-base font-semibold leading-7 text-gray-900">Collaborate</h3>
+                                <h3 className="text-base font-semibold leading-7 text-gray-900">Email</h3>
                                 <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
                                     <div>
                                         <dt className="sr-only">Email</dt>
                                         <dd>
                                             <a className="font-semibold text-indigo-600" href="mailto:collaborate@example.com">
-                                                collaborate@example.com
+                                                hello@cfacubc.com
                                             </a>
                                         </dd>
                                     </div>
-                                    <div className="mt-1">
-                                        <dt className="sr-only">Phone number</dt>
-                                        <dd>+1 (555) 905-2345</dd>
-                                    </div>
+
                                 </dl>
                             </div>
-                            <div className="rounded-2xl bg-gray-50 p-10">
-                                <h3 className="text-base font-semibold leading-7 text-gray-900">Press</h3>
-                                <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
-                                    <div>
-                                        <dt className="sr-only">Email</dt>
-                                        <dd>
-                                            <a className="font-semibold text-indigo-600" href="mailto:press@example.com">
-                                                press@example.com
-                                            </a>
-                                        </dd>
-                                    </div>
-                                    <div className="mt-1">
-                                        <dt className="sr-only">Phone number</dt>
-                                        <dd>+1 (555) 905-3456</dd>
-                                    </div>
-                                </dl>
-                            </div>
-                            <div className="rounded-2xl bg-gray-50 p-10">
-                                <h3 className="text-base font-semibold leading-7 text-gray-900">Join our team</h3>
-                                <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
-                                    <div>
-                                        <dt className="sr-only">Email</dt>
-                                        <dd>
-                                            <a className="font-semibold text-indigo-600" href="mailto:careers@example.com">
-                                                careers@example.com
-                                            </a>
-                                        </dd>
-                                    </div>
-                                    <div className="mt-1">
-                                        <dt className="sr-only">Phone number</dt>
-                                        <dd>+1 (555) 905-4567</dd>
-                                    </div>
-                                </dl>
-                            </div>
-                            <div className="rounded-2xl bg-gray-50 p-10">
-                                <h3 className="text-base font-semibold leading-7 text-gray-900">Say hello</h3>
-                                <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
-                                    <div>
-                                        <dt className="sr-only">Email</dt>
-                                        <dd>
-                                            <a className="font-semibold text-indigo-600" href="mailto:hello@example.com">
-                                                hello@example.com
-                                            </a>
-                                        </dd>
-                                    </div>
-                                    <div className="mt-1">
-                                        <dt className="sr-only">Phone number</dt>
-                                        <dd>+1 (555) 905-5678</dd>
-                                    </div>
-                                </dl>
-                            </div>
+
+
                         </div>
                     </div>
 
