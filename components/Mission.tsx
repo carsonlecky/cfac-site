@@ -8,6 +8,7 @@ export default function Mission() {
                     <div className="relative px-12 h-80 lg:h-auto lg:grow xl:ml-24">
                         <img
                             className="absolute rounded-2xl inset-0 h-full w-full bg-gray-50 object-cover"
+                            src="https://m.media-amazon.com/images/I/51dfOifCQjL._AC_.jpg"
                             alt=""
                         />
                     </div>
