@@ -14,13 +14,13 @@ export default function AboutHeader() {
                     </h1>
                     <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
                         <p className="text-xl leading-8 text-gray-600">
-                            CFAC Portfolio Management is a UBC student-run investment club which started its endowment with a donation from UBC's 15th President, Santa Ono.
+                            CFAC Portfolio Management is a UBC student-run investment club which started its endowment with a donation from UBC&aposs 15th President, Santa Ono.
                         </p>
                         <p className="text-xl mt-5 leading-8 text-gray-600">
-                            CFAC's goal is to educate members on the fundamentals of Capital Markets, while providing first-hand experience in managing a fund. The club holds an active virtual portfolio consisting of various equities. The investments team undergoes an extensive training program where they learn the fundamental skills of pitching a company through equity research, valuation and financial modelling.
+                            CFAC&aposs goal is to educate members on the fundamentals of Capital Markets while providing first-hand experience in managing a fund. The club holds an active virtual portfolio consisting of various equities. The investments team undergoes an extensive training program where they learn the fundamental skills of pitching a company through equity research, valuation and financial modelling.
                         </p>
                         <p className="text-xl mt-5 leading-8 text-gray-600">
-                            Throughout the year, members pitch both stock initiations and holding reviews to the investment committee. Members gain invaluable experience and mentorship from upper-year students and industry professionals that provide them with the essential skills, network, and preparation to break into the world of finance.
+                            Throughout the year, members pitch both stock initiations and holdings reviews to the investment committee. Members gain invaluable experience and mentorship from upper-year students and industry professionals that provide them with the essential skills, network, and preparation to break into the world of finance.
                         </p>
                     </div>
                     <img
