@@ -41,7 +41,7 @@ export default function NavBar() {
     return (
         <>
             <Head>
-                <meta property="og:image" content="https://www.cfacubc.com/ogicon.png" />
+                <meta property="og:image" content="https://www.cfacubc.com/opengraph-image.png" />
             </Head>
             <header className="bg-white">
                 <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
