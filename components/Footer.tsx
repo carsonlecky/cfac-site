@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 const navigation = [
     {
@@ -43,7 +44,7 @@ export default function Footer() {
                 </div>
                 <div className="mt-8 md:order-1 md:mt-0">
                     <p className="text-center text-xs leading-5 text-gray-500">
-                        &copy; 2023 CFAC Portfolio Management. All rights reserved. By The Leck.
+                        &copy; 2023 CFAC Portfolio Management. All rights reserved. <Link href='https://www.linkedin.com/in/carson-lecky/'>1676</Link>.
                     </p>
                 </div>
             </div>
