@@ -23,6 +23,7 @@ export default function LogoCloud() {
                             alt="Company Logo"
                             width={158}
                             height={48}
+                            key={url}
                         />
                     ))}
                 </div>
