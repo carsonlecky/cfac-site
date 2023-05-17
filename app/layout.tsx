@@ -16,6 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <meta property="og:image" content="ogicon.png" />
+      </Head>
       <body>
         <NavBar />
         {children}

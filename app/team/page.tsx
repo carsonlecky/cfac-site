@@ -15,9 +15,11 @@ export default function Team() {
                     </p>
                 </div>
             </div>
+
             <ExecTeam />
             <OpsTeam />
             <EquityTeam />
         </>
     )
 }
+
