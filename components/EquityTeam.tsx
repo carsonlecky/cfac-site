@@ -4,7 +4,7 @@ const people = [
     { name: 'Miguel Leon Li', role: 'Vice President, Investments', imageUrl: 'mimi.jpg' },
     { name: 'Grace Lee', role: 'Sector Head, TMT', imageUrl: 'grace.jpg' },
     { name: 'Taeyeon Lee', role: 'Sector Head, Real Estate', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
-    { name: 'Malia Bryson', role: 'Sector Head, Consumer Discretionary', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
+    { name: 'Malia Bryson', role: 'Sector Head, Consumer Discretionary', imageUrl: 'malia.jpeg' },
     { name: 'John McKenzie', role: 'Sector Head, Natural Resources', imageUrl: 'johnmck.jpg' },
     { name: 'Jordan Black', role: 'Associate, TMT', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
     { name: 'Aziz Umiryayev', role: 'Associate, Real Estate', imageUrl: 'abdul.jpg' },

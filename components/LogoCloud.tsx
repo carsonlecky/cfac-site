@@ -34,8 +34,8 @@ const URLs: string[] = [
     "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Ontario_Teachers%27_Pension_Plan_logo.svg/1200px-Ontario_Teachers%27_Pension_Plan_logo.svg.png",
     "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/d7p6atydxlxtnir6yz06",
     "https://www.queensu.ca/investmentservices/sites/iswww/files/uploaded_images/ESG%20Logos/Orbis%20Logo.png",
-    "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/3e3e332c561af327e9cd",
-    "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/gwrpsfe7lu7m0vdmcyob",
+    "https://media.zenfs.com/en/accesswire.ca/cf82b26d58ce9169f0e788811623a75d",
+    "https://mms.businesswire.com/media/20220802006159/en/1532924/23/BalbecCapital_LLC_logo_large.jpg",
     //"https://admin.propertyplatform.com/wp-content/uploads/2020/01/Bosa_Properties__Final_White_550.png",
     "https://images.squarespace-cdn.com/content/v1/62745bf8532ac82e72952e99/0bd44c2a-ec4a-4679-8cee-e340ce38ee26/Orr_Logo_RGB.jpg?format=1500w",
     "https://image.pitchbook.com/F5sk038Jyj2KiBXsSbT9dewszWi1580221223273_200x200"

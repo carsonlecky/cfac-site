@@ -17,7 +17,7 @@ export default function Contact() {
                                     <div>
                                         <dt className="sr-only">Email</dt>
                                         <dd>
-                                            <a className="font-semibold text-indigo-600" href="mailto:collaborate@example.com">
+                                            <a className="font-semibold text-blue-900" href="mailto:collaborate@example.com">
                                                 hello@cfacubc.com
                                             </a>
                                         </dd>
