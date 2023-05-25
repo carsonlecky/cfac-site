@@ -43,7 +43,7 @@ export default function NavBar() {
                     <div className="flex lg:flex-1">
                         <a href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <img className="h-16 w-auto" src="bigga.png" alt="" />
+                            <img className="h-24 w-auto" src="peenis.png" alt="" />
                         </a>
                     </div>
                     <div className="flex lg:hidden">

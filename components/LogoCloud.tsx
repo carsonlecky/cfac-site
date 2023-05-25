@@ -2,10 +2,39 @@ import { url } from "inspector"
 
 const URLs: string[] = [
     "https://mma.prnewswire.com/media/2010443/Canaccord_Genuity_Group_Inc__CANACCORD_GENUITY_GROUP_INC__SPECIA.jpg?p=publish",
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/EY_logo_2019.svg/440px-EY_logo_2019.svg.png',
-    'https://upload.wikimedia.org/wikipedia/commons/9/9d/KPMG_logo.svg',
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/National_Bank_Of_Canada.svg/1200px-National_Bank_Of_Canada.svg.png",
-    "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/BMO_Capital_Markets_logo.svg/2560px-BMO_Capital_Markets_logo.svg.png"
+    "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/BMO_Capital_Markets_logo.svg/2560px-BMO_Capital_Markets_logo.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Goldman_Sachs.svg/1200px-Goldman_Sachs.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/0/05/PJT_Logo_Blue.png",
+    "https://logos-world.net/wp-content/uploads/2021/02/Citigroup-Logo.png",
+    "https://upload.wikimedia.org/wikipedia/commons/f/f7/Cantor_Fitzgerald_logo.png",
+    "https://logos-world.net/wp-content/uploads/2021/02/Royal-Bank-of-Canada-Logo.png",
+    "https://companieslogo.com/img/orig/NA.TO_BIG-38602d80.png?t=1654665191",
+    "https://mallmaverick.imgix.net/web/property_managers/8/properties/80/all/20210928140412/Spirit_Halloween___18_.png",
+    "https://td.mediaroom.com/image/TD_SHIELD_LOGO_COL_RGB.png",
+    "https://www.imaginecanada.ca/sites/default/files/2019-05/raymond-james-1.png",
+    "https://mlu4nmsijdre.i.optimole.com/cb:c7B2.66654/w:500/h:500/q:mauto/f:avif/https://www.bci.ca/wp-content/uploads/2018/03/bci-logo.png",
+    "https://d2q79iu7y748jz.cloudfront.net/s/_logo/b191e1e0d8557464a835a1444512d9be",
+    "https://ww1.prweb.com/prfiles/2022/10/17/18964275/Garibaldi_Logo_RGB_FULLCOLOUR_square.png",
+    "https://www.cloverdalemall.com/wp-content/uploads/2019/11/team-logo-quadreal.png",
+    "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/mayu6y0bdmjuqrjw2oeg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Teck_Resources_logo.svg/1200px-Teck_Resources_logo.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/EY_logo_2019.svg/1200px-EY_logo_2019.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/KPMG_logo.svg/2560px-KPMG_logo.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/1/15/Deloitte_Logo.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/PricewaterhouseCoopers_Logo.svg/1200px-PricewaterhouseCoopers_Logo.svg.png",
+    "https://media.penderfund.com/media/2023/01/2023_Pender_PenderFundCapManLogo_20thAnn_English.png",
+    "https://www.eonetwork.org/okanagan/PublishingImages/Sponsors/OdlumBrownLogo.png",
+    "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/j9wifmzx8wvb5cpac7jx",
+    "https://static.wixstatic.com/media/fd61b2_06d12391c42a44378a50b687a72d0e96~mv2_d_3634_1370_s_2.png/v1/fill/w_637,h_240,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/TricorPacificCaptial_Logos-02.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Fiserv_logo.svg/1280px-Fiserv_logo.svg.png",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Ontario_Teachers%27_Pension_Plan_logo.svg/1200px-Ontario_Teachers%27_Pension_Plan_logo.svg.png",
+    "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/d7p6atydxlxtnir6yz06",
+    "https://www.queensu.ca/investmentservices/sites/iswww/files/uploaded_images/ESG%20Logos/Orbis%20Logo.png",
+    "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/3e3e332c561af327e9cd",
+    "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/gwrpsfe7lu7m0vdmcyob",
+    "https://admin.propertyplatform.com/wp-content/uploads/2020/01/Bosa_Properties__Final_White_550.png",
+    "https://images.squarespace-cdn.com/content/v1/62745bf8532ac82e72952e99/0bd44c2a-ec4a-4679-8cee-e340ce38ee26/Orr_Logo_RGB.jpg?format=1500w",
+    "https://image.pitchbook.com/F5sk038Jyj2KiBXsSbT9dewszWi1580221223273_200x200"
 
 ]
 
@@ -15,7 +44,7 @@ export default function LogoCloud() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
                     Placements                </h2>
-                <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+                <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4">
                     {URLs.map((url) => (
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
