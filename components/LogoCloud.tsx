@@ -1,22 +1,26 @@
 import { url } from "inspector"
 
 const URLs: string[] = [
-    "https://mma.prnewswire.com/media/2010443/Canaccord_Genuity_Group_Inc__CANACCORD_GENUITY_GROUP_INC__SPECIA.jpg?p=publish",
-    "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/BMO_Capital_Markets_logo.svg/2560px-BMO_Capital_Markets_logo.svg.png",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Goldman_Sachs.svg/1200px-Goldman_Sachs.svg.png",
+    "https://www.1min30.com/wp-content/uploads/2018/07/Symbole-Goldman-Sachs.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/0/05/PJT_Logo_Blue.png",
+
     "https://logos-world.net/wp-content/uploads/2021/02/Citigroup-Logo.png",
     "https://upload.wikimedia.org/wikipedia/commons/f/f7/Cantor_Fitzgerald_logo.png",
-    "https://logos-world.net/wp-content/uploads/2021/02/Royal-Bank-of-Canada-Logo.png",
+    "https://logos-download.com/wp-content/uploads/2016/08/RBC_logo.png",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/BMO_Capital_Markets_logo.svg/2560px-BMO_Capital_Markets_logo.svg.png",
+
     "https://companieslogo.com/img/orig/NA.TO_BIG-38602d80.png?t=1654665191",
-    "https://mallmaverick.imgix.net/web/property_managers/8/properties/80/all/20210928140412/Spirit_Halloween___18_.png",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/CIBC_logo_2021.svg/2560px-CIBC_logo_2021.svg.png",
     "https://td.mediaroom.com/image/TD_SHIELD_LOGO_COL_RGB.png",
     "https://www.imaginecanada.ca/sites/default/files/2019-05/raymond-james-1.png",
-    "https://mlu4nmsijdre.i.optimole.com/cb:c7B2.66654/w:500/h:500/q:mauto/f:avif/https://www.bci.ca/wp-content/uploads/2018/03/bci-logo.png",
+    "https://www.bci.ca/wp-content/themes/bci/assets/images/svg/BCI-logo.svg",
+    "https://mma.prnewswire.com/media/2010443/Canaccord_Genuity_Group_Inc__CANACCORD_GENUITY_GROUP_INC__SPECIA.jpg?p=publish",
+
     "https://d2q79iu7y748jz.cloudfront.net/s/_logo/b191e1e0d8557464a835a1444512d9be",
-    "https://ww1.prweb.com/prfiles/2022/10/17/18964275/Garibaldi_Logo_RGB_FULLCOLOUR_square.png",
-    "https://www.cloverdalemall.com/wp-content/uploads/2019/11/team-logo-quadreal.png",
-    "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/mayu6y0bdmjuqrjw2oeg",
+
+    "https://techexit.io/wp-content/uploads/2019/07/Garibaldi_Logo_CMYK.png",
+    "https://mma.prnewswire.com/media/1215937/QuadReal_Property_Group_QuadReal_Property_Group_Launches_Its_Gre.jpg",
+    "https://mma.prnewswire.com/media/1639200/Novacap_Management_Inc__Novacap_Announces_Final_Closing_of_Canad.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Teck_Resources_logo.svg/1200px-Teck_Resources_logo.svg.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/EY_logo_2019.svg/1200px-EY_logo_2019.svg.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/KPMG_logo.svg/2560px-KPMG_logo.svg.png",
@@ -32,7 +36,7 @@ const URLs: string[] = [
     "https://www.queensu.ca/investmentservices/sites/iswww/files/uploaded_images/ESG%20Logos/Orbis%20Logo.png",
     "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/3e3e332c561af327e9cd",
     "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/gwrpsfe7lu7m0vdmcyob",
-    "https://admin.propertyplatform.com/wp-content/uploads/2020/01/Bosa_Properties__Final_White_550.png",
+    //"https://admin.propertyplatform.com/wp-content/uploads/2020/01/Bosa_Properties__Final_White_550.png",
     "https://images.squarespace-cdn.com/content/v1/62745bf8532ac82e72952e99/0bd44c2a-ec4a-4679-8cee-e340ce38ee26/Orr_Logo_RGB.jpg?format=1500w",
     "https://image.pitchbook.com/F5sk038Jyj2KiBXsSbT9dewszWi1580221223273_200x200"
 

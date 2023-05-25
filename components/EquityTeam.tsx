@@ -1,23 +1,24 @@
 "use client"
+import Image from "next/image"
 const people = [
-    { name: 'Miguel Leon Li', role: 'Vice President, Investments', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
-    { name: 'Grace Lee', role: 'Sector Head, TMT', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
+    { name: 'Miguel Leon Li', role: 'Vice President, Investments', imageUrl: 'mimi.jpg' },
+    { name: 'Grace Lee', role: 'Sector Head, TMT', imageUrl: 'grace.jpg' },
     { name: 'Taeyeon Lee', role: 'Sector Head, Real Estate', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
     { name: 'Malia Bryson', role: 'Sector Head, Consumer Discretionary', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
-    { name: 'John McKenzie', role: 'Sector Head, Natural Resources', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
+    { name: 'John McKenzie', role: 'Sector Head, Natural Resources', imageUrl: 'johnmck.jpg' },
     { name: 'Jordan Black', role: 'Associate, TMT', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
-    { name: 'Aziz Umiryayev', role: 'Associate, Real Estate', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
-    { name: 'Kevin Li', role: 'Associate, Consumer Discretionary', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
-    { name: 'Lachlan Pedersen', role: 'Associate, Energy', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
-    { name: 'Ben Brownlie', role: 'Analyst', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
+    { name: 'Aziz Umiryayev', role: 'Associate, Real Estate', imageUrl: 'abdul.jpg' },
+    { name: 'Kevin Li', role: 'Associate, Consumer Discretionary', imageUrl: 'kev.jpg' },
+    { name: 'Lachlan Pedersen', role: 'Associate, Energy', imageUrl: 'lachlan.jpg' },
+    { name: 'Ben Brownlie', role: 'Analyst', imageUrl: 'brownlie.jpg' },
     { name: 'Alex Hachey', role: 'Analyst', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
-    { name: 'Jack Hallion', role: 'Analyst', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
-    { name: 'Ethan Harvey', role: 'Analyst', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
-    { name: 'Edison Huang', role: 'Analyst', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
-    { name: 'Ethan Penny', role: 'Analyst', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
+    { name: 'Jack Hallion', role: 'Analyst', imageUrl: 'hallion.jpg' },
+    { name: 'Ethan Harvey', role: 'Analyst', imageUrl: 'harvey.jpg' },
+    { name: 'Edison Huang', role: 'Analyst', imageUrl: 'edi.jpg' },
+    { name: 'Ethan Penny', role: 'Analyst', imageUrl: 'penny.jpg' },
     { name: 'Avram Prljincevic', role: 'Analyst', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
-    { name: 'Sebastian Romero-Wong', role: 'Analyst', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
-    { name: 'Kai Smart', role: 'Analyst', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' }
+    { name: 'Sebastian Romero-Wong', role: 'Analyst', imageUrl: 'seb.jpg' },
+    { name: 'Kai Smart', role: 'Analyst', imageUrl: 'kai.jpg' }
 ]
 
 
