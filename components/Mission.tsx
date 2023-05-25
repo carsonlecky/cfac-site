@@ -26,19 +26,19 @@ export default function Mission() {
                             </p>
                             <ul role="list" className="mt-8 space-y-8 text-gray-600">
                                 <li className="flex gap-x-3">
-                                    <GlobeAltIcon className="mt-1 h-5 w-5 flex-none text-cfac" aria-hidden="true" />
+                                    <GlobeAltIcon className="mt-1 h-5 w-5 flex-none text-[#183C6D]" aria-hidden="true" />
                                     <span>
                                         <strong className="font-semibold text-gray-900">Philanthropy.</strong> CFAC Portfolio Management was founded in 2016 with a philanthropic purpose of raising awareness and money for ALS research. CFAC continues this mission by organizing fundraisers and sharing information in the UBC community about the fight against ALS.
                                     </span>
                                 </li>
                                 <li className="flex gap-x-3">
-                                    <AcademicCapIcon className="mt-1 h-5 w-5 flex-none text-cfac" aria-hidden="true" />
+                                    <AcademicCapIcon className="mt-1 h-5 w-5 flex-none text-[#183C6D]" aria-hidden="true" />
                                     <span>
                                         <strong className="font-semibold text-gray-900">Education.</strong> Our intense training program is designed to teach our members the essential skills and fundamentals to excel in the world of finance. From the basics of valuations, to creating pitch decks and making investment decisions, CFAC Portfolio Management is proud of the wide range of transferable skills taught through the program. We provide our members with the hands-on experience and knowledge that one cannot learn in the classroom.
                                     </span>
                                 </li>
                                 <li className="flex gap-x-3">
-                                    <BriefcaseIcon className="mt-1 h-5 w-5 flex-none text-cfac" aria-hidden="true" />
+                                    <BriefcaseIcon className="mt-1 h-5 w-5 flex-none text-[#183C6D]" aria-hidden="true" />
                                     <span>
                                         <strong className="font-semibold text-gray-900">Mentorship.</strong> CFAC Portfolio Management’s greatest asset is its members and its culture. We pride ourselves in offering a positive community of ambitious like-minded individuals who are always willing to provide invaluable 1 on 1 mentorship. Our experienced upper-year members, and our distinguished alumni, consistently guide our younger students through their career journey and rigorous recruiting process.
                                     </span>

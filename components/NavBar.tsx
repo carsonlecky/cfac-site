@@ -60,17 +60,17 @@ export default function NavBar() {
 
 
 
-                        <a href="/team" className="text-sm font-semibold leading-6 text-gray-900">
+                        <a href="/team" className="text-lg font-semibold leading-6 text-gray-900">
                             Team
                         </a>
 
 
-                        <a href="/events" className="text-sm font-semibold leading-6 text-gray-900">
+                        <a href="/events" className="text-lg font-semibold leading-6 text-gray-900">
                             Events
                         </a>
 
                         <Popover className="relative">
-                            <Popover.Button className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
+                            <Popover.Button className="inline-flex items-center gap-x-1 text-lg font-semibold leading-6 text-gray-900">
                                 <span>Portfolio</span>
                                 <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
                             </Popover.Button>
@@ -89,7 +89,7 @@ export default function NavBar() {
                                         <a
                                             key={item.name}
                                             href={item.href}
-                                            className="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50"
+                                            className="block rounded-lg px-3 py-2 text-lg font-semibold leading-6 text-gray-900 hover:bg-gray-50"
                                         >
                                             {item.name}
                                         </a>
@@ -99,14 +99,14 @@ export default function NavBar() {
                         </Popover>
 
 
-                        <a href="/alumni" className="text-sm font-semibold leading-6 text-gray-900">
+                        <a href="/alumni" className="text-lg font-semibold leading-6 text-gray-900">
                             Alumni
                         </a>
 
-                        <a href="/hiring" className="text-sm font-semibold leading-6 text-gray-900">
+                        <a href="/hiring" className="text-lg font-semibold leading-6 text-gray-900">
                             Hiring
                         </a>
-                        <a href="/contact" className="text-sm font-semibold leading-6 text-gray-900">
+                        <a href="/contact" className="text-lg font-semibold leading-6 text-gray-900">
                             Contact
                         </a>
 
@@ -193,13 +193,13 @@ export default function NavBar() {
                                         Alumni
                                     </a>
                                     <a
-                                        href="/alumni"
+                                        href="/hiring"
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                     >
                                         Hiring
                                     </a>
                                     <a
-                                        href="/alumni"
+                                        href="/contact"
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                     >
                                         Contact
