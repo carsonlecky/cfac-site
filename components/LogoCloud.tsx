@@ -1,7 +1,7 @@
 import { url } from "inspector"
 
 const URLs: string[] = [
-    "https://www.1min30.com/wp-content/uploads/2018/07/Symbole-Goldman-Sachs.jpg",
+    "https://www.investopedia.com/thmb/xYp4iC5hASi-YDAdFtilERkOe98=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/goldman_sachs_logo-56a2ee373df78cf7727b34a2.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/0/05/PJT_Logo_Blue.png",
 
     "https://logos-world.net/wp-content/uploads/2021/02/Citigroup-Logo.png",
@@ -49,10 +49,10 @@ export default function LogoCloud() {
                 {/*<h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
                     Placements              
     </h2>*/}
-                <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+                <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                     {URLs.map((url) => (
                         <img
-                            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                            className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
                             src={url}
                             alt="Company Logo"
                             width={158}
