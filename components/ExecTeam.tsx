@@ -13,7 +13,6 @@ const people = [
     { name: 'Ben Brownlie', role: 'Business Development Associate', imageUrl: 'brownlie.jpg' },
     { name: 'Lachlan Pedersen', role: 'Business Development Associate', imageUrl: 'lachlan.jpg' },
     { name: 'Miguel Nieto', role: 'Business Development Associate', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
-    { name: 'Carson Lecky', role: 'Software Developer', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' }
 ]
 
 
