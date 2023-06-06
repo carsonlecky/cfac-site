@@ -14,7 +14,7 @@ export default function AboutHeader() {
                     </h1>
                     <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
                         <p className="text-xl leading-8 text-gray-600">
-                            CFAC Portfolio Management is a UBC student-run investment club which started its endowment with a donation from UBC&apos;s 15th President, Santa Ono.
+                            CFAC Portfolio Management is a UBC student-run investment club which started its endowment with generous support from UBC&apos;s 15th President, Santa Ono.
                         </p>
                         <p className="text-xl mt-5 leading-8 text-gray-600">
                             CFAC&apos;s goal is to educate members on the fundamentals of Capital Markets while providing first-hand experience in managing a fund. The club holds an active virtual portfolio consisting of various equities. The investments team undergoes an extensive training program where they learn the fundamental skills of pitching a company through equity research, valuation and financial modelling.

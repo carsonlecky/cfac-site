@@ -6,7 +6,7 @@ import { Metadata } from 'next'
 
 
 export const metadata: Metadata = {
-  title: 'CFAC Portfolio Mangement',
+  title: 'CFAC Portfolio Management',
   description: 'UBC\'s #1 Investment Club',
 };
 
