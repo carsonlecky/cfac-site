@@ -3,7 +3,7 @@ import Image from "next/image"
 const people = [
     { name: 'Miguel Leon Li', role: 'Vice President, Investments', imageUrl: 'mimi.jpg' },
     { name: 'Grace Lee', role: 'Sector Head, TMT', imageUrl: 'grace.jpg' },
-    { name: 'Taeyeon Lee', role: 'Sector Head, Real Estate', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
+    { name: 'Taeyeon Lee', role: 'Sector Head, Real Estate', imageUrl: 'https://scontent.fcxh3-1.fna.fbcdn.net/v/t1.15752-9/350959201_3607077346232076_5472042396314888985_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=hhzLToZb-vQAX8JUCrL&_nc_ht=scontent.fcxh3-1.fna&oh=03_AdSvYB2YgWX_-z91bGhR3NQ5AOzR6WQW8d-xLNV4tqEfdg&oe=64A71F4D' },
     { name: 'Malia Bryson', role: 'Sector Head, Consumer Discretionary', imageUrl: 'malia.jpeg' },
     { name: 'John McKenzie', role: 'Sector Head, Natural Resources', imageUrl: 'johnmck.jpg' },
     { name: 'Jordan Black', role: 'Associate, TMT', imageUrl: 'https://media.licdn.com/dms/image/C5603AQGEDMYnsBc4Jg/profile-displayphoto-shrink_800_800/0/1620838366058?e=1690416000&v=beta&t=2msKAfpMiX2ElxT7F7zNHvMLa5WgnRNoLLcJOMPHxG8' },

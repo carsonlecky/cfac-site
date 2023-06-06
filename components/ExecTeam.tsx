@@ -8,7 +8,7 @@ const people = [
     { name: 'Sarah Bryenton', role: 'Vice President, Marketing', imageUrl: 'sarah.jpg' },
     { name: 'Avram Prljincevic', role: 'Vice President, Internal', imageUrl: 'Avram.jpeg' },
     { name: 'Soniya Huda', role: 'Co-Vice President, External', imageUrl: 'soni.jpg' },
-    { name: 'Shourya Gulati', role: 'Co-Vice President, External', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
+    { name: 'Shourya Gulati', role: 'Co-Vice President, External', imageUrl: 'https://files.slack.com/files-pri/T052TEGAWSD-F05BMLN8LLR/picture1.jpg' },
     { name: 'Emily Massullo', role: 'Marketing Associate', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
     { name: 'Ben Brownlie', role: 'Business Development Associate', imageUrl: 'brownlie.jpg' },
     { name: 'Lachlan Pedersen', role: 'Business Development Associate', imageUrl: 'lachlan.jpg' },
