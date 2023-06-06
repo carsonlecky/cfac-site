@@ -6,17 +6,17 @@ const people = [
     { name: 'Taeyeon Lee', role: 'Sector Head, Real Estate', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
     { name: 'Malia Bryson', role: 'Sector Head, Consumer Discretionary', imageUrl: 'malia.jpeg' },
     { name: 'John McKenzie', role: 'Sector Head, Natural Resources', imageUrl: 'johnmck.jpg' },
-    { name: 'Jordan Black', role: 'Associate, TMT', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
+    { name: 'Jordan Black', role: 'Associate, TMT', imageUrl: 'https://media.licdn.com/dms/image/C5603AQGEDMYnsBc4Jg/profile-displayphoto-shrink_800_800/0/1620838366058?e=1690416000&v=beta&t=2msKAfpMiX2ElxT7F7zNHvMLa5WgnRNoLLcJOMPHxG8' },
     { name: 'Aziz Umiryayev', role: 'Associate, Real Estate', imageUrl: 'abdul.jpg' },
     { name: 'Kevin Li', role: 'Associate, Consumer Discretionary', imageUrl: 'kev.jpg' },
     { name: 'Lachlan Pedersen', role: 'Associate, Energy', imageUrl: 'lachlan.jpg' },
     { name: 'Ben Brownlie', role: 'Analyst', imageUrl: 'brownlie.jpg' },
-    { name: 'Alex Hachey', role: 'Analyst', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
+    { name: 'Alex Hachey', role: 'Analyst', imageUrl: 'Alex.jpeg' },
     { name: 'Jack Hallion', role: 'Analyst', imageUrl: 'hallion.jpg' },
     { name: 'Ethan Harvey', role: 'Analyst', imageUrl: 'harvey.jpg' },
     { name: 'Edison Huang', role: 'Analyst', imageUrl: 'edi.jpg' },
     { name: 'Ethan Penny', role: 'Analyst', imageUrl: 'penny.jpg' },
-    { name: 'Avram Prljincevic', role: 'Analyst', imageUrl: 'https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-t-shirt-white-background-147541161.jpg' },
+    { name: 'Avram Prljincevic', role: 'Analyst', imageUrl: 'Avram.jpeg' },
     { name: 'Sebastian Romero-Wong', role: 'Analyst', imageUrl: 'seb.jpg' },
     { name: 'Kai Smart', role: 'Analyst', imageUrl: 'kai.jpg' }
 ]
@@ -27,7 +27,7 @@ export default function EquityTeam() {
         <div className="bg-white py-12">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl sm:text-center">
-                    <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Investments Team</h2>
+                    <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Investment Team</h2>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
                     </p>
                 </div>
