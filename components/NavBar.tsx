@@ -10,6 +10,7 @@ import {
     SquaresPlusIcon,
     XMarkIcon,
 } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
 const products = [
@@ -60,9 +61,9 @@ export default function NavBar() {
 
 
 
-                        <a href="/team" className="text-lg font-semibold leading-6 text-gray-900">
+                        <Link href="/team" className="text-lg font-semibold leading-6 text-gray-900">
                             Team
-                        </a>
+                        </Link>
 
 
                         <a href="/events" className="text-lg font-semibold leading-6 text-gray-900">
@@ -143,12 +144,12 @@ export default function NavBar() {
                             <div className="-my-6 divide-y divide-gray-500/10">
                                 <div className="space-y-2 py-6">
 
-                                    <a
+                                    <Link
                                         href="/team"
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                     >
                                         Team
-                                    </a>
+                                    </Link>
                                     <a
                                         href="/events"
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
