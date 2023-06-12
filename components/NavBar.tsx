@@ -110,6 +110,9 @@ export default function NavBar() {
                         <a href="/contact" className="text-lg font-semibold leading-6 text-gray-900">
                             Contact
                         </a>
+                        <a href="/philanthropy" className="text-lg font-semibold leading-6 text-gray-900">
+                            Philanthropy
+                        </a>
 
 
                     </Popover.Group>
@@ -201,6 +204,12 @@ export default function NavBar() {
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                     >
                                         Contact
+                                    </a>
+                                    <a
+                                        href="/philanthropy"
+                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                    >
+                                        Philanthropy
                                     </a>
                                 </div>
 
