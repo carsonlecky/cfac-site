@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image"
 const people = [
     { name: 'Miguel Leon Li', role: 'Vice President, Investments', imageUrl: 'mimi.jpg' },
