@@ -55,11 +55,11 @@ export default function Philanthropy() {
                                 <img src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" className="h-12 w-auto" />
                                 <blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
                                     <p>
-                                        “CFAC doing really, really, really, big things out here *stock goes up emoji*”
+                                        “Quute goes here”
                                     </p>
                                 </blockquote>
                                 <figcaption className="mt-6 text-sm leading-6 text-gray-300">
-                                    <strong className="font-semibold text-white">Jordan Rogers,</strong> CEO at ALS
+                                    <strong className="font-semibold text-white">Name,</strong> Position
                                 </figcaption>
                             </figure>
                         </div>
