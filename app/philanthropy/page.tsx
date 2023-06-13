@@ -52,10 +52,9 @@ export default function Philanthropy() {
                                     />
                                     <use href="#0ef284b8-28c2-426e-9442-8655d393522e" x={86} />
                                 </svg>
-                                <img src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" className="h-12 w-auto" />
                                 <blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
                                     <p>
-                                        “Quute goes here”
+                                        “Quote goes here”
                                     </p>
                                 </blockquote>
                                 <figcaption className="mt-6 text-sm leading-6 text-gray-300">
@@ -81,6 +80,7 @@ export default function Philanthropy() {
                                 {/* Add a p tag for a new paragraph*/}
                             </div>
                         </div>
+                        {/*
                         <dl className="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">
                             {stats.map((stat, statIdx) => (
                                 <div key={statIdx}>
@@ -89,9 +89,10 @@ export default function Philanthropy() {
                                 </div>
                             ))}
                         </dl>
+                        */}
                         <div className="mt-10 flex">
                             <a href="#" className="text-base font-semibold leading-7 text-[#183C6D]">
-                                Learn more about the ALS company we work with <span aria-hidden="true">&rarr;</span>
+                                Learn more about ALS Society of BC and Project Hope <span aria-hidden="true">&rarr;</span>
                             </a>
                         </div>
                     </div>
