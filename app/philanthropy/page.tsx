@@ -73,8 +73,8 @@ export default function Philanthropy() {
                             <div className="max-w-xl text-xl">
                                 <p className="mt-6">
                                     CFAC was founded in 2016 with a philanthropic purpose of raising awareness and money for ALS research.
-                                    Being a UBC club, Project Hope is near to our hearts and has proved an inspiring catalyst for our members'
-                                    support of the fund's philanthropic efforts. CFAC has set a goal to raise $10,000 for Project Hope this year
+                                    Being a UBC club, Project Hope is near to our hearts and has proved an inspiring catalyst for our members&apos;
+                                    support of the fund&apos;s philanthropic efforts. CFAC has set a goal to raise $10,000 for Project Hope this year
                                     through various events, competitions and donations. Beyond the fundraising, we also promote awareness about the
                                     fight against ALS by sharing information in the UBC community at our events and across our social media platforms.
                                 </p>
