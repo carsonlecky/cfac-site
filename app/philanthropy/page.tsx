@@ -91,7 +91,7 @@ export default function Philanthropy() {
                         </dl>
                         <div className="mt-10 flex">
                             <a href="#" className="text-base font-semibold leading-7 text-[#183C6D]">
-                                Learn more about our company <span aria-hidden="true">&rarr;</span>
+                                Learn more about the ALS company we work with <span aria-hidden="true">&rarr;</span>
                             </a>
                         </div>
                     </div>
