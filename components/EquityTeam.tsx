@@ -37,7 +37,7 @@ export default function EquityTeam() {
                 >
                     {people.map((person) => (
                         <li key={person.name} className="flex flex-col gap-6 xl:flex-row">
-                            <Image className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" src={person.imageUrl} alt="" />
+                            <img className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" src={person.imageUrl} alt="" />
                             <div className="flex-auto">
                                 <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
 
