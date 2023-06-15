@@ -44,7 +44,7 @@ export default function Footer() {
                 </div>
                 <div className="mt-8 md:order-1 md:mt-0">
                     <p className="text-center text-xs leading-5 text-[#183C6D]">
-                        &copy; 2023 CFAC Portfolio Management. All rights reserved. <Link target="_blank" href='https://www.linkedin.com/in/carson-lecky/'>1676</Link>.
+                        &copy; 2023 CFAC Portfolio Management. All rights reserved. <Link target="_blank" href='https://www.linkedin.com/in/carson-lecky-adds-value/'>1676</Link>.
                     </p>
                 </div>
             </div>
