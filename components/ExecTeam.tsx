@@ -1,7 +1,7 @@
 
 import Image from "next/image"
 const people = [
-    { name: 'Jordan Black', role: 'President', imageUrl: 'https://media.licdn.com/dms/image/C5603AQGEDMYnsBc4Jg/profile-displayphoto-shrink_800_800/0/1620838366058?e=1690416000&v=beta&t=2msKAfpMiX2ElxT7F7zNHvMLa5WgnRNoLLcJOMPHxG8' },
+    { name: 'Jordan Black', role: 'President', imageUrl: 'jordawg.jpeg' },
     { name: 'Aziz Umiryayev', role: 'Executive Vice President', imageUrl: 'abdul.jpg' },
     { name: 'Miguel Leon Li', role: 'Vice President, Investments', imageUrl: 'mimi.jpg' },
     { name: 'Sarah Bryenton', role: 'Vice President, Marketing', imageUrl: 'sarah.jpg' },
