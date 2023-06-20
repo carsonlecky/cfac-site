@@ -65,10 +65,8 @@ export default function Philanthropy() {
                     </div>
                     <div>
                         <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
-                            {/*<p className="text-base font-semibold leading-7 text-indigo-600">Company values</p>
-                            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                                On a mission to empower remote teams
-                            </h1>*/}
+                            {/*<p className="text-base font-semibold leading-7 text-indigo-600">Company values</p> */}
+
                             <div className="max-w-xl text-xl">
                                 <p className="mt-6">
                                     CFAC was founded in 2016 with a philanthropic purpose of raising awareness and money for ALS research.
@@ -78,6 +76,22 @@ export default function Philanthropy() {
                                     fight against ALS by sharing information in the UBC community at our events and across our social media platforms.
                                 </p>
                                 {/* Add a p tag for a new paragraph*/}
+                                <h1 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                                    What is Project Hope?
+                                </h1>
+                                <ul role="list" className="mt-8 space-y-8 text-gray-600">
+                                    <li className="flex gap-x-3">
+                                        <span>
+                                            The ALS Society of BC successfully launched PROJECT HOPE, raising over $5.3M to establish an endowed trust to fund an ALS Research Professorship at UBC. As this is an endowed trust, funds for the professorship will be in perpetuity. Recruitment of a clinician-scientist will oversee, spearhead, and create opportunities for patients to access clinical trials in BC, to become a leader in Canada and the world for ALS research. They will champion enhanced care for ALS patients in BC.
+                                        </span>
+                                    </li>
+                                    <li className="flex gap-x-3">
+                                        <span>
+                                            The ALS Clinic move to UBC is taking place. It is our dream to End ALS through creating a world-class ALS Centre at UBC. To that end, the ALS Society of BC has pledged to UBC to raise an additional $20M to see this come to fruition.
+                                        </span>
+                                    </li>
+
+                                </ul>
                             </div>
                         </div>
                         {/*
@@ -91,8 +105,8 @@ export default function Philanthropy() {
                         </dl>
                         */}
                         <div className="mt-10 flex">
-                            <a href="#" className="text-base font-semibold leading-7 text-[#183C6D]">
-                                Learn more about ALS Society of BC and Project Hope <span aria-hidden="true">&rarr;</span>
+                            <a href="https://projecthopealsbc.ca" className="text-base font-semibold leading-7 text-[#183C6D]">
+                                For more information on Project Hope and to learn how you can support it, please check their page <span aria-hidden="true">&rarr;</span>
                             </a>
                         </div>
                     </div>
